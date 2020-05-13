@@ -28,7 +28,7 @@ jobs:
         node-version: ${{ env.nodeVersion }}
 
     - name: Install package dependencies
-      run: npm install
+      run: npm ci
 
     - name: Build
       run: npm run build
